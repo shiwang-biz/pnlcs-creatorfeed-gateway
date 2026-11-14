@@ -1,0 +1,10 @@
+{
+    "name": "creatorfeed",
+    "type": "gateway",
+    "class": "Modules\\Gateways\\CreatorFeed\\CreatorFeedModule",
+    "provider": "Modules\\Gateways\\CreatorFeed\\CreatorFeedServiceProvider",
+    "version": "1.0.0",
+    "display_name": "CreatorFeed",
+    "description": "CreatorFeed payment links (UPI, cards, netbanking) with signed webhooks and API-confirmed payments",
+    "author": {"name": "Bizfunnel"}
+}

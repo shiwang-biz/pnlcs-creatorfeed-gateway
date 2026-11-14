@@ -1,8 +1,13 @@
 # CreatorFeed payment gateway for PNLCS (Panelica)
 
-> Private repository. Ready-to-install package: [`dist/CreatorFeed-pnlcs-module.zip`](dist/CreatorFeed-pnlcs-module.zip).
-> With the [Module Manager](https://github.com/shiwang-biz/pnlcs-module-manager) addon, upload that zip at
-> **Extensions → Module Manager**; no file manager or `php artisan migrate` needed.
+> ### 🧩 Install modules from your admin, with no SSH: [PNLCS Module Manager](https://github.com/shiwang-biz/pnlcs-module-manager)
+> Our free, open-source addon for PNLCS lets you **install, update, back up, restore and delete** any module
+> (gateways, server modules, registrars, SSL, addons) by uploading a `.zip` in the admin area.
+> It checks every package before installing, backs up the old version, runs the module's database migrations for you
+> and rolls back automatically if something fails.
+> **[⬇ Download Module Manager](https://github.com/shiwang-biz/pnlcs-module-manager/raw/main/dist/ModuleManager-pnlcs-addon.zip)** · [Read more](https://github.com/shiwang-biz/pnlcs-module-manager)
+
+**Download this module:** [⬇ CreatorFeed-pnlcs-module.zip](https://github.com/shiwang-biz/pnlcs-creatorfeed-gateway/raw/main/dist/CreatorFeed-pnlcs-module.zip). With the Module Manager installed, just upload it at **Extensions → Module Manager**.
 
 Customers pay invoices through CreatorFeed (UPI, cards, netbanking). An invoice
 is only marked paid after **CreatorFeed's own API** reports the order as `paid`.
